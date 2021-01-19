@@ -1,0 +1,87 @@
+@media screen and (max-width: 850px) {
+    .head-txt h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .tabs {
+        font-size: 14px;
+    }
+
+    .drink-tab {
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .home-tab {
+        height: 40rem;
+    }
+    .drinks-tab {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+
+    .head-txt h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .tab-label {
+        padding: 0 1%;
+    }
+
+    .home-tab {
+        height: 45rem;
+    }
+
+    .food-tab {
+        text-align: center;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .burger-img,
+    .pancake-img,
+    .burger-img img,
+    .pancake-img img {
+        display: none;
+    }
+
+    .drinks-tab {
+        height: 48rem;
+    }
+
+    .contact-tab {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 5px;
+        height: 70rem;
+        padding: 25px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tabs {
+        font-size: 13px;
+    }
+
+    .home-tab {
+        height: 44rem;
+        padding: 25px;
+    }
+
+    .drinks-tab {
+        padding: 25px;
+        height: 50rem;
+    }
+
+}
