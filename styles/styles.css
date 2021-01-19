@@ -14,7 +14,7 @@ body {
 
 header {
     height: 70vh;
-    background-image: url(./pics/bar.jpg);
+    background-image: url(../pics/bar.jpg);
     background-size: cover;
     background-position: right;
     font-weight: 600;
